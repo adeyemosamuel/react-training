@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-import Icon from 'react-native-vector-icons/dist/Ionicons';
+// import Icon from 'react-native-vector-icons/dist/Ionicons';
+import Entypo from 'react-native-vector-icons/Entypo';
 
 
 
 class FavoriteTab extends Component {
 
     static navigationOptions = {
-        tabBarLabel: 'App Store',
+        tabBarLabel: 'Favorite',
         tabBarIcon: ({ focused, tintColor }) => {
-            let iconName = focused ? 'ios-appstore' : 'ios-appstore-outline';
-            return <Icon name={iconName} size={30} color={tintColor} />;
+            // let iconName = focused ? 'ios-appstore' : 'ios-appstore-outline';
+            let iconName = 'star';
+            return <Entypo name={iconName} size={30} color={tintColor} />;
         }
     }
 

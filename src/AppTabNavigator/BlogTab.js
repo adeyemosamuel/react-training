@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-import Icon from 'react-native-vector-icons/dist/Ionicons';
+import Foundation from 'react-native-vector-icons/Foundation';
 
 
 
 class BlogTab extends Component {
 
     static navigationOptions = {
-        tabBarLabel: 'App Store',
+        tabBarLabel: 'Blog',
         tabBarIcon: ({ focused, tintColor }) => {
-            let iconName = focused ? 'ios-appstore' : 'ios-appstore-outline';
-            return <Icon name={iconName} size={30} color={tintColor} />;
+            // let iconName = focused ? 'ios-appstore' : 'ios-appstore-outline';
+            let iconName = 'social-blogger';
+            return <Foundation name={iconName} size={30} color={tintColor} />;
         }
     }
 
