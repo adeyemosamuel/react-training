@@ -1,0 +1,52 @@
+[
+    {
+        "items": 5,
+        "address": "140 Broad Street, Lagos Island, Lagos.",
+        "total": 5000,
+        "date": "July 3, 2018"
+    },
+
+    {
+        "items": 10,
+        "address": "5, Ola Ayeni Street,Computer Village,Ikeja,Lagos.",
+        "total": 8500,
+        "date": "July 1, 2018"
+    },
+
+    {
+        "items": 8,
+        "address": "17, Joel Ogunnaike Street,Ikeja G.R.A,Lagos.",
+        "total": 6500,
+        "date": "June 29, 2018"
+    },
+
+    {
+        "items": 21,
+        "address": "19, Zenith Bank,Opebi,Lagos.",
+        "total": 2000,
+        "date": "June 18, 2018"
+    },
+
+    {
+        "items": 18,
+        "address": "7, Laniyan Estate, Ikorodu road,Lagos.",
+        "total": 3500,
+        "date": "April 4, 2018"
+    },
+
+
+    {
+        "items": 2,
+        "address": "82, Fadeyi Close, Ikorodu road,Lagos.",
+        "total": 5500,
+        "date": "May 15, 2018"
+    },
+
+
+    {
+        "items": 4,
+        "address": "237A, Ogudu Estate, Alapere road,Lagos.",
+        "total": 4200,
+        "date": "June 27, 2018"
+    }
+]
