@@ -1,11 +1,17 @@
 import React, { Component } from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Image } from "react-native";
 import { Icon, Button, Container, Header, Content, Left, Right} from 'native-base';
 
 
 
 
 class HomeScreen extends Component {
+
+  static navigationOptions={
+    drawerIcon: (
+      <Image source={require('../src/images/home.png')} style={{height: 24, width: 24}}/>
+    )
+  }
 
   render() {
     return (
